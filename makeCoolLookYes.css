@@ -1,0 +1,123 @@
+.div1 {
+    background-color:black;
+    /* change size */
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 6px 15px;
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}   
+
+#text {
+    color:white;
+}
+
+#text2 {
+    color:white;
+    /* center text */
+    position: relative;
+    bottom: 33%;
+}
+
+.div2 {
+    background-color:black;
+    height: 50px;
+    width: 320px;
+    padding: 0px 15px;
+    border-radius: 15px;
+
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#background {
+    background-color:gray;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#button-img {
+    background-color:white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* bold */
+    font-weight: bold;
+    transition: transform 0.1s ease-in-out
+}
+
+#button-img:hover {
+    background-color: lightgray;
+    /* make bigger smoothly*/
+    transform: translateX(-50%) scale(1.1);
+}
+
+#Peanuts {
+    position: absolute;
+    top: 50%;;
+    left:45%;
+
+    transform: translate(-45%, -50%)
+    
+}
+
+#text3 {
+    color:hwb(120 97% 2%);
+    position: relative;
+    top: 100%;
+    left: 4%;
+
+}
+
+#button35 {
+    background-color:white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* bold */
+    font-weight: bold;
+    transition: transform 0.1s ease-in-out
+}
+
+#button35:hover {
+    background-color: rgb(211, 210, 210);
+    transform: translateX(-50%) scale(1.1)
+}
+
+#text4 {
+    color: white;
+    font-weight: bold;
+    position:absolute;
+    top: -15px;
+    left: 45px;
+}
